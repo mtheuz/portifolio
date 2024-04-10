@@ -17,8 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <body className={kufam.className}>
       <Header/>
-      <body className={kufam.className}>{children}</body>
+        {children}
+        </body>
     </html>
   );
 }

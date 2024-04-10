@@ -9,10 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors:{
-        'yellow-primary' : '#FFA800'
+        'yellow-primary' : '#FFA800',
+        'green-button-primary' : '#33FF00'
       }
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar'),
+],
 };
 export default config;
